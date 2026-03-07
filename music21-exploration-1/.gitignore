@@ -1,0 +1,4 @@
+*.md
+!README.md
+*.png
+assets/
