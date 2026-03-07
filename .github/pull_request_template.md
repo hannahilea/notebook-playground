@@ -1,0 +1,2 @@
+- [ ] README exists
+- [ ] linked from top-level readme
