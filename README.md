@@ -8,5 +8,5 @@ For specifics, see the per-directory `README.md`s. Which might exist! And might 
 
 ## Contents
 
-- [music21-exploration-1](./music21_exploration1/README.md)
+- [music21-exploration-1](./music21-exploration-1/README.md)
 
