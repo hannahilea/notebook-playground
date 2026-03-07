@@ -1,6 +1,6 @@
-# `music21_exploration1`
+# `music21-exploration-1`
 
-In service of blog post https://hannahilea.com/blog/counting-musical-notes/
+In service of blog post https://hannahilea.com/blog/counting-flute-notes/
 
 ## Dev log
 
