@@ -2,7 +2,13 @@
 
 In service of blog post https://hannahilea.com/blog/counting-flute-notes/
 
+Notebooks:
+- [./gaubert_exploration.ipynb](./gaubert_exploration.ipynb)
+- [./concert_count.ipynb](./concert_count.ipynb)
+
 ## Dev log
+
+Scratch notes.
 
 ### Notebook 1: 'gaubert_exploration.ipynb'
 
@@ -12,8 +18,7 @@ In service of blog post https://hannahilea.com/blog/counting-flute-notes/
 
 - Set up:
     ```
-    mkdir notebook1
-    cd notebook1
+    cd notebook-playground/music21-exploration-1
 
     uv init
     uv add music21
@@ -37,7 +42,7 @@ In service of blog post https://hannahilea.com/blog/counting-flute-notes/
     - well, actually did `brew install --cask quarto`
     - I use VSCode, so installed extension https://marketplace.visualstudio.com/items?itemName=quarto.quarto 
     - There's a converter for going between jupyter notebooks automatically: `quarto convert basics-jupyter.ipynb`
-- Let's do that. From within the notebook1 directory, did `quarto convert gaubert_exploration.ipynb`
+- Let's do that. From within the `music21-exploration-1` directory, did `quarto convert gaubert_exploration.ipynb`
     - ...actually scratch that! We can get it to do markdown or html the same way. Let's do markdown to copy it over into my blog!
     ```
     quarto render gaubert_exploration.ipynb --to markdown
