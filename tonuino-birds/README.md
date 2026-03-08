@@ -24,7 +24,7 @@ In service of setting up TonUINO cards with bird songs.
 
 ## Dev log
 
-### Goal one: set up card manager
+### Goal 1: set up card manager
 
 Want to use: https://github.com/mxmehl/tonuino-cards-manager
 
@@ -113,23 +113,7 @@ Want to use: https://github.com/mxmehl/tonuino-cards-manager
     uv run tonuino-cards-manager --config test2.yaml --destination '/Volumes/TONUINO' > test2.log
     ```
 
-### Goal two: set up the cards
-
-Okay. SD card is in device. Device is powered on. Now what?!
-
-- According to the set-up instructions for the manager, https://marc136.github.io/tonuino-nfc-tools/ . Let's give that a go.
-    - ...nope. Android only, and I don't have access to an Android device. (Maybe AF has an old one I can use?)
-
-- Trying NFC Tools on iphone
-    - Okay, this seems v. powerful. only question is how to get the info from the QR code to this app! lol. 
-    - Do NOT bother upgrading to PRO. 
-
-- Trying different tools app---claims to support bulk CSV (with paid) --- 3day trial, let's see how it goes
-    - Played around, no success yet---also, VERY manual.
-
-- [ ] TODO Next: figure out csv bulk upload situation (may take...a bit. does not seem intuitive)
-
-### Goal 3: Prepare to make full .yaml
+### Goal 2: Prepare to make full .yaml
 
 1. List the cards from the birds deck
 - ...added as `birds-of-north-america-deck.txt`
@@ -145,7 +129,7 @@ Okay, 4961 lines == 4961 files. pretty sure that's what we were promised?
 ls "/Users/skye/Downloads/The Cornell Guide to Bird Sounds--United States and Canada (v2025)" > audio-full-tracklist.txt
 ```
 
-### Goal 4: Make full playlist of birds! 
+### Goal 3: Make full playlist of birds! 
 
 Okay. This is a case where templating the full thing would be overkill. There are two steps:
 
@@ -196,3 +180,37 @@ Okay. Skimming through by eye looking for the birds with no matches. Could autom
 ...that's it. wow! Okay. And it turns out the Gadwell issue is because I misspelled it, and it's actually "Gadwall". Hah! manually copied those files over.
 
 Similarly, in the audio it is stylized as "Yellow-crowned Night Heron". Copied over!
+
+
+### Goal 4: set up the cards
+
+Okay. SD card is in device. Device is powered on. Now what?!
+
+- According to the set-up instructions for the manager, https://marc136.github.io/tonuino-nfc-tools/ . Let's give that a go.
+    - ...nope. Android only, and I don't have access to an Android device. (Maybe AF has an old one I can use?)
+
+- Trying NFC Tools on iphone
+    - Okay, this seems v. powerful. only question is how to get the info from the QR code to this app! lol. 
+    - Do NOT bother upgrading to PRO. 
+
+- Trying different tools app---claims to support bulk CSV (with paid) --- 3day trial, let's see how it goes
+    - Played around, no success yet---also, VERY manual.
+
+- [ ] TODO Next: figure out csv bulk upload situation (may take...a bit. does not seem intuitive)
+
+
+TODO-HERE
+
+
+### Goal 5: Do the thing!
+
+No, but seriously! The final steps are:
+- [ ] Run the real command to copy the audio over to the SD card: 
+```
+    uv run tonuino-cards-manager --config tonuino-birds-of-north-america.yaml --destination '/Volumes/TONUINO' > tonuino-birds-of-north-america.log
+```
+
+- [ ] Program each sticker...
+    - [ ] ...and put it on the bird card
+
+...and that's it, on this side of the project. Still need to figure out a physical housing, but that's neither here nor there.
