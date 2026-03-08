@@ -193,4 +193,6 @@ Okay. Skimming through by eye looking for the birds with no matches. Could autom
 - Gadwell
 - Yellow-crowned Night-Heron
 
-...that's it. wow! Okay.
+...that's it. wow! Okay. And it turns out the Gadwell issue is because I misspelled it, and it's actually "Gadwall". Hah! manually copied those files over.
+
+Similarly, in the audio it is stylized as "Yellow-crowned Night Heron". Copied over!
