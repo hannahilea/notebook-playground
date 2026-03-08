@@ -145,7 +145,7 @@ Okay, 4961 lines == 4961 files. pretty sure that's what we were promised?
 ls "/Users/skye/Downloads/The Cornell Guide to Bird Sounds--United States and Canada (v2025)" > audio-full-tracklist.txt
 ```
 
-### Goal 4: Make full .yaml!
+### Goal 4: Make full playlist of birds! 
 
 Okay. This is a case where templating the full thing would be overkill. There are two steps:
 
@@ -185,3 +185,12 @@ done < birds-of-north-america-deck.txt
 :) :) :)
 
 It's looking good! Okay. Let's check that in (so we don't accidentally overwrite it!) and then do the manual bit.
+
+#### ...manually clean up playlist
+
+Okay. Skimming through by eye looking for the birds with no matches. Could automate this, but not worth it (I'm learning!). What do we have?
+
+- Gadwell
+- Yellow-crowned Night-Heron
+
+...that's it. wow! Okay.

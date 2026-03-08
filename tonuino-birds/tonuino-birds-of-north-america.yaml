@@ -276,8 +276,13 @@ cards:
     mode: party
 
   19:
-    description: Gadwell
+    description: Gadwall
     source:
+      - Gadwall 01 Display US-NJ.mp3
+      - Gadwall 02 Male calls CA-SK.mp3
+      - Gadwall 03 Female calls US-ND.mp3
+      - Gadwall 04 Female calls PT-08.mp3
+      - Gadwall 05 Calls US-NY.mp3
     mode: party
 
   20:
