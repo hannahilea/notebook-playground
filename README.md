@@ -10,3 +10,18 @@ For specifics, see the per-directory `README.md`s. Which might exist! And might 
 
 - 2026-03-05: [music21-exploration-1](./music21-exploration-1)
 - 2026-03-08: [tonuino-birds](./tonuino-birds)
+
+
+## Make new dir
+
+```
+export NAME=new-name
+
+mkdir "$NAME"
+cd "$NAME"
+echo "# `$NAME` >> "README.md"
+touch ".gitignore"
+
+# Optional, if python will be involved
+uv init --bare
+```

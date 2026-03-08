@@ -8,9 +8,15 @@ wheels/
 
 # Virtual environments
 .venv
-
 .vscode
 
+# Notebook cruft
 **/.ipynb_checkpoints/
 
+# Stuff that is unlikely to be intentionally present. Can force it if needed.
+*.mp3
+*.pdf
+*.png
+
+# TEMP
 music21-bumblebee/
