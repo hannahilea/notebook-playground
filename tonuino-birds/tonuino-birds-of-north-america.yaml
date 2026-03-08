@@ -1,0 +1,645 @@
+  1:
+    description: American Crow
+    source:
+      - American Crow 01 Calls US-FL.mp3
+      - American Crow 02 Calls US-FL.mp3
+      - American Crow 03 Calls US-FL.mp3
+      - American Crow 04 Calls US-FL.mp3
+      - American Crow 05 Calls US-MD.mp3
+      - American Crow 06 Calls US-CA.mp3
+      - American Crow 07 Calls US-NY.mp3
+      - American Crow 08 Calls US-NY.mp3
+      - American Crow 09 Calls US-FL.mp3
+      - American Crow 10 Juvenile calls US-CA.mp3
+      - American Crow 11 Calls (Pacific vocal type) US-AK.mp3
+      - American Crow 12 Calls (Pacific vocal type) US-AK.mp3
+      - American Crow 13 Calls (Pacific vocal type) US-AK.mp3
+      - American Crow 14 Calls (Pacific vocal type) US-WA.mp3
+    mode: party
+
+  2:
+    description: Downy Woodpecker
+    source:
+      - Downy Woodpecker 01 Calls (Eastern) US-NY.mp3
+      - Downy Woodpecker 02 Calls (Eastern) US-NY.mp3
+      - Downy Woodpecker 03 Calls (Eastern) US-NY.mp3
+      - Downy Woodpecker 04 Calls (Eastern) US-NY.mp3
+      - Downy Woodpecker 05 Drum (Eastern) CA-ON.mp3
+      - Downy Woodpecker 06 Juvenile calls (Eastern) US-WV.mp3
+      - Downy Woodpecker 07 Calls (Rocky Mts.) US-CO.mp3
+      - Downy Woodpecker 08 Calls (Rocky Mts.) US-CO.mp3
+      - Downy Woodpecker 09 Drum (Rocky Mts.) US-CO.mp3
+      - Downy Woodpecker 10 Calls (Pacific) US-CA.mp3
+      - Downy Woodpecker 11 Calls (Pacific) US-CA.mp3
+      - Downy Woodpecker 12 Drum (Pacific) US-CA.mp3
+    mode: party
+
+  3:
+    description: American Goldfinch
+    source:
+      - American Goldfinch 01 Song US-NY.mp3
+      - American Goldfinch 02 Song US-NY.mp3
+      - American Goldfinch 03 Song US-WV.mp3
+      - American Goldfinch 04 Song US-WV.mp3
+      - American Goldfinch 05 Calls US-NY.mp3
+      - American Goldfinch 06 Calls US-NY.mp3
+      - American Goldfinch 07 Calls US-VT.mp3
+      - American Goldfinch 08 Calls US-NY.mp3
+      - American Goldfinch 09 Calls US-NY.mp3
+      - American Goldfinch 10 Calls US-CO.mp3
+      - American Goldfinch 11 Calls US-KS.mp3
+      - American Goldfinch 12 Juvenile calls US-NY.mp3
+      - American Goldfinch 13 Juvenile calls US-NY.mp3
+    mode: party
+
+  4:
+    description: Black-capped Chickadee
+    source:
+      - Black-capped Chickadee 01 Song US-NY.mp3
+      - Black-capped Chickadee 02 Song CA-AB.mp3
+      - Black-capped Chickadee 03 Song US-MI.mp3
+      - Black-capped Chickadee 04 Song US-WA.mp3
+      - Black-capped Chickadee 05 Calls US-ME.mp3
+      - Black-capped Chickadee 06 Calls US-NY.mp3
+      - Black-capped Chickadee 07 Calls US-NY.mp3
+      - Black-capped Chickadee 08 Calls US-NY.mp3
+      - Black-capped Chickadee 09 Calls US-NY.mp3
+      - Black-capped Chickadee 10 Calls US-ME.mp3
+      - Black-capped Chickadee 11 Calls US-NY.mp3
+      - Black-capped Chickadee 12 Calls US-NY.mp3
+      - Black-capped Chickadee 13 Juvenile calls US-NY.mp3
+    mode: party
+
+  5:
+    description: Cedar Waxwing
+    source:
+      - Cedar Waxwing 01 Calls US-NH.mp3
+      - Cedar Waxwing 02 Calls US-NY.mp3
+      - Cedar Waxwing 03 Calls US-NY.mp3
+      - Cedar Waxwing 04 Calls US-NY.mp3
+      - Cedar Waxwing 05 Flock calls US-NY.mp3
+      - Cedar Waxwing 06 Calls US-NY.mp3
+    mode: party
+
+  6:
+    description: Lincoln's Sparrow
+    source:
+      - Lincoln's Sparrow 01 Song US-NY.mp3
+      - Lincoln's Sparrow 02 Song US-NY.mp3
+      - Lincoln's Sparrow 03 Song US-CO.mp3
+      - Lincoln's Sparrow 04 Song US-AK.mp3
+      - Lincoln's Sparrow 05 Chip calls US-NY.mp3
+      - Lincoln's Sparrow 06 Chip calls US-NY.mp3
+      - Lincoln's Sparrow 07 Tink calls US-WY.mp3
+      - Lincoln's Sparrow 08 Calls US-CO.mp3
+      - Lincoln's Sparrow 09 Flight calls US-AZ.mp3
+    mode: party
+
+  7:
+    description: Mountain Bluebird
+    source:
+      - Mountain Bluebird 01 Song US-CO.mp3
+      - Mountain Bluebird 02 Song US-OR.mp3
+      - Mountain Bluebird 03 Calls US-CA.mp3
+      - Mountain Bluebird 04 Calls CA-AB.mp3
+      - Mountain Bluebird 05 Calls US-SD.mp3
+      - Mountain Bluebird 06 Calls US-CO.mp3
+      - Mountain Bluebird 07 Juvenile calls US-SD.mp3
+    mode: party
+
+  8:
+    description: Northern Mockingbird
+    source:
+      - Northern Mockingbird 01 Song US-MD.mp3
+      - Northern Mockingbird 02 Song US-NY.mp3
+      - Northern Mockingbird 03 Song US-CA.mp3
+      - Northern Mockingbird 04 Calls US-NY.mp3
+      - Northern Mockingbird 05 Calls US-LA.mp3
+      - Northern Mockingbird 06 Calls US-NY.mp3
+      - Northern Mockingbird 07 Calls US-MD.mp3
+      - Northern Mockingbird 08 Juvenile calls US-CT.mp3
+    mode: party
+
+  9:
+    description: Rose-breasted Grosbeak
+    source:
+      - Rose-breasted Grosbeak 01 Song US-NY.mp3
+      - Rose-breasted Grosbeak 02 Song US-WV.mp3
+      - Rose-breasted Grosbeak 03 Song US-VA.mp3
+      - Rose-breasted Grosbeak 04 Calls US-NY.mp3
+      - Rose-breasted Grosbeak 05 Calls US-NY.mp3
+      - Rose-breasted Grosbeak 06 Calls US-NY.mp3
+      - Rose-breasted Grosbeak 07 Calls US-NJ.mp3
+      - Rose-breasted Grosbeak 08 Calls US-NY.mp3
+      - Rose-breasted Grosbeak 09 Flight calls US-NY.mp3
+      - Rose-breasted Grosbeak 10 Flight calls US-MD.mp3
+    mode: party
+
+  10:
+    description: White-breasted Nuthatch
+    source:
+      - White-breasted Nuthatch 01 Song (Eastern) US-WV.mp3
+      - White-breasted Nuthatch 02 Song (Eastern) US-NY.mp3
+      - White-breasted Nuthatch 03 Song (Eastern) US-AR.mp3
+      - White-breasted Nuthatch 04 Calls (Eastern) US-NY.mp3
+      - White-breasted Nuthatch 05 Calls (Eastern) US-WV.mp3
+      - White-breasted Nuthatch 06 Calls (Eastern) US-MD.mp3
+      - White-breasted Nuthatch 07 Calls (Eastern) US-WV.mp3
+      - White-breasted Nuthatch 08 Song (Interior West) US-CA.mp3
+      - White-breasted Nuthatch 09 Song (Interior West) US-AZ.mp3
+      - White-breasted Nuthatch 10 Song (Interior West) US-AZ.mp3
+      - White-breasted Nuthatch 11 Song (Interior West) US-CA.mp3
+      - White-breasted Nuthatch 12 Calls (Interior West) US-CO.mp3
+      - White-breasted Nuthatch 13 Calls (Interior West) US-CO.mp3
+      - White-breasted Nuthatch 14 Calls (Interior West) US-AZ.mp3
+      - White-breasted Nuthatch 15 Song (Pacific) US-CA.mp3
+      - White-breasted Nuthatch 16 Song (Pacific) US-CA.mp3
+      - White-breasted Nuthatch 17 Song (Pacific) US-CA.mp3
+      - White-breasted Nuthatch 18 Calls (Pacific) US-CA.mp3
+    mode: party
+
+  11:
+    description: Yellow-rumped Warbler
+    source:
+      - Yellow-rumped Warbler 01 Song (Myrtle) US-NY.mp3
+      - Yellow-rumped Warbler 02 Song (Myrtle) US-NH.mp3
+      - Yellow-rumped Warbler 03 Song (Myrtle) CA-ON.mp3
+      - Yellow-rumped Warbler 04 Song (Myrtle) US-NY.mp3
+      - Yellow-rumped Warbler 05 Song (Myrtle) US-NY.mp3
+      - Yellow-rumped Warbler 06 Chip calls (Myrtle) US-NY.mp3
+      - Yellow-rumped Warbler 07 Tink calls (Myrtle) US-NY.mp3
+      - Yellow-rumped Warbler 08 Flight calls (Myrtle) US-NY.mp3
+      - Yellow-rumped Warbler 09 Song (Audubon's) US-OR.mp3
+      - Yellow-rumped Warbler 10 Song (Audubon's) US-NM.mp3
+      - Yellow-rumped Warbler 11 Song (Audubon's) US-CA.mp3
+      - Yellow-rumped Warbler 12 Song (Audubon's) US-OR.mp3
+      - Yellow-rumped Warbler 13 Chip calls (Audubon's) US-WY.mp3
+      - Yellow-rumped Warbler 14 Tink calls (Audubon's) US-CA.mp3
+      - Yellow-rumped Warbler 15 Flight calls (Audubon's) US-ID.mp3
+    mode: party
+
+  12:
+    description: Eastern Meadowlark
+    source:
+      - Eastern Meadowlark 01 Song US-GA.mp3
+      - Eastern Meadowlark 02 Song US-MD.mp3
+      - Eastern Meadowlark 03 Song US-NY.mp3
+      - Eastern Meadowlark 04 Flight song US-FL.mp3
+      - Eastern Meadowlark 05 Calls US-FL.mp3
+      - Eastern Meadowlark 06 Calls US-NY.mp3
+      - Eastern Meadowlark 07 Calls US-NY.mp3
+      - Eastern Meadowlark 08 Flight calls US-NJ.mp3
+    mode: party
+
+  13:
+    description: Northern Cardinal
+    source:
+      - Northern Cardinal 01 Song US-NY.mp3
+      - Northern Cardinal 02 Song US-NY.mp3
+      - Northern Cardinal 03 Song US-NY.mp3
+      - Northern Cardinal 04 Song US-MD.mp3
+      - Northern Cardinal 05 Duet US-WI.mp3
+      - Northern Cardinal 06 Calls US-NM.mp3
+      - Northern Cardinal 07 Calls US-NY.mp3
+      - Northern Cardinal 08 Calls US-NY.mp3
+      - Northern Cardinal 09 Calls US-NY.mp3
+      - Northern Cardinal 10 Juvenile calls US-NY.mp3
+    mode: party
+
+  14:
+    description: Baltimore Oriole
+    source:
+      - Baltimore Oriole 01 Song US-NY.mp3
+      - Baltimore Oriole 02 Song US-NY.mp3
+      - Baltimore Oriole 03 Song US-NY.mp3
+      - Baltimore Oriole 04 Song US-NY.mp3
+      - Baltimore Oriole 05 Complex song US-NY.mp3
+      - Baltimore Oriole 06 Song and calls US-NY.mp3
+      - Baltimore Oriole 07 Calls US-NY.mp3
+      - Baltimore Oriole 08 Female song US-NY.mp3
+      - Baltimore Oriole 09 Calls US-WV.mp3
+      - Baltimore Oriole 10 Calls US-NY.mp3
+      - Baltimore Oriole 11 Calls US-NY.mp3
+      - Baltimore Oriole 12 Calls US-NY.mp3
+      - Baltimore Oriole 13 Calls US-WV.mp3
+      - Baltimore Oriole 14 Juvenile calls US-NY.mp3
+    mode: party
+
+  15:
+    description: Western Tanager
+    source:
+      - Western Tanager 01 Song CA-BC.mp3
+      - Western Tanager 02 Song US-CA.mp3
+      - Western Tanager 03 Dawn song US-CA.mp3
+      - Western Tanager 04 Calls US-UT.mp3
+      - Western Tanager 05 Calls US-CA.mp3
+      - Western Tanager 06 Calls US-OR.mp3
+    mode: party
+
+  16:
+    description: Mallard
+    source:
+      - Mallard 01 Female calls US-NY.mp3
+      - Mallard 02 Female calls US-NY.mp3
+      - Mallard 03 Male calls IS-6.mp3
+      - Mallard 04 Female calls US-NY.mp3
+      - Mallard 05 Calls US-NY.mp3
+      - Mallard 06 Calls US-NY.mp3
+      - Mallard 07 Display US-NY.mp3
+    mode: party
+
+  17:
+    description: Common Loon
+    source:
+      - Common Loon 01 Song US-MI.mp3
+      - Common Loon 02 Song CA-QC.mp3
+      - Common Loon 03 Calls US-ME.mp3
+      - Common Loon 04 Calls CA-ON.mp3
+      - Common Loon 05 Calls CA-BC.mp3
+      - Common Loon 06 Calls US-AK.mp3
+      - Common Loon 07 Calls US-WI.mp3
+    mode: party
+
+  18:
+    description: Common Merganser
+    source:
+      - Common Merganser 01 Display US-NY.mp3
+      - Common Merganser 02 Calls US-NY.mp3
+      - Common Merganser 03 Calls US-NY.mp3
+    mode: party
+
+  19:
+    description: Gadwell
+    source:
+    mode: party
+
+  20:
+    description: Northern Pintail
+    source:
+      - Northern Pintail 01 Display US-NY.mp3
+      - Northern Pintail 02 Calls US-AK.mp3
+      - Northern Pintail 03 Calls CA-MB.mp3
+      - Northern Pintail 04 Flock calls US-NY.mp3
+    mode: party
+
+  21:
+    description: Redhead
+    source:
+      - Redhead 01 Display US-ND.mp3
+      - Redhead 02 Display CA-MB.mp3
+      - Redhead 03 Calls US-CA.mp3
+      - Redhead 04 Calls US-NY.mp3
+      - Redhead 05 Calls CA-MB.mp3
+    mode: party
+
+  22:
+    description: Ring-necked Duck
+    source:
+      - Ring-necked Duck 01 Display US-AK.mp3
+      - Ring-necked Duck 02 Display US-NY.mp3
+      - Ring-necked Duck 03 Male calls CA-YT.mp3
+      - Ring-necked Duck 04 Female calls US-NY.mp3
+      - Ring-necked Duck 05 Female calls US-AK.mp3
+      - Ring-necked Duck 06 Female calls US-AK.mp3
+    mode: party
+
+  23:
+    description: Ruddy Duck
+    source:
+      - Ruddy Duck 01 Display US-CA.mp3
+      - Ruddy Duck 02 Calls US-CO.mp3
+    mode: party
+
+  24:
+    description: Trumpeter Swan
+    source:
+      - Trumpeter Swan 01 Calls US-MN.mp3
+      - Trumpeter Swan 02 Calls US-NY.mp3
+      - Trumpeter Swan 03 Calls US-AK.mp3
+      - Trumpeter Swan 04 Calls US-MT.mp3
+      - Trumpeter Swan 05 Calls US-MN.mp3
+      - Trumpeter Swan 06 Wing sound US-MT.mp3
+    mode: party
+
+  25:
+    description: Western Grebe
+    source:
+      - Western Grebe 01 Song CA-MB.mp3
+      - Western Grebe 02 Song US-CA.mp3
+      - Western Grebe 03 Song US-MT.mp3
+      - Western Grebe 04 Calls CA-MB.mp3
+      - Western Grebe 05 Calls US-CA.mp3
+      - Western Grebe 06 Chick calls US-CA.mp3
+    mode: party
+
+  26:
+    description: Green-winged Teal
+    source:
+      - Green-winged Teal 01 Calls US-NY.mp3
+      - Green-winged Teal 02 Calls US-NY.mp3
+      - Green-winged Teal 03 Calls US-SD.mp3
+      - Green-winged Teal 04 Calls US-NY.mp3
+      - Green-winged Teal 05 Calls US-CA.mp3
+      - Green-winged Teal 06 Calls US-CA.mp3
+      - Green-winged Teal 07 Calls US-WA.mp3
+      - Green-winged Teal 08 Calls US-NY.mp3
+    mode: party
+
+  27:
+    description: Hooded Merganser
+    source:
+      - Hooded Merganser 01 Display US-IA.mp3
+      - Hooded Merganser 02 Calls US-SC.mp3
+      - Hooded Merganser 03 Calls US-WA.mp3
+      - Hooded Merganser 04 Wing sound CA-ON.mp3
+    mode: party
+
+  28:
+    description: Wood Duck
+    source:
+      - Wood Duck 01 Calls US-NY.mp3
+      - Wood Duck 02 Calls US-ME.mp3
+      - Wood Duck 03 Calls US-NY.mp3
+      - Wood Duck 04 Calls US-WV.mp3
+      - Wood Duck 05 Calls US-WV.mp3
+      - Wood Duck 06 Calls US-NY.mp3
+      - Wood Duck 07 Calls US-CA.mp3
+      - Wood Duck 08 Calls US-NY.mp3
+    mode: party
+
+  29:
+    description: American Avocet
+    source:
+      - American Avocet 01 Calls US-OR.mp3
+      - American Avocet 02 Calls US-UT.mp3
+      - American Avocet 03 Calls US-CA.mp3
+      - American Avocet 04 Calls US-OR.mp3
+      - American Avocet 05 Calls US-OR.mp3
+      - American Avocet 06 Flock calls CA-AB.mp3
+    mode: party
+
+  30:
+    description: Dunlin
+    source:
+      - Dunlin 01 Calls US-FL.mp3
+      - Dunlin 02 Calls US-FL.mp3
+      - Dunlin 03 Calls US-FL.mp3
+      - Dunlin 04 Calls IS-6.mp3
+      - Dunlin 05 Flock calls US-FL.mp3
+      - Dunlin 06 Song US-AK.mp3
+      - Dunlin 07 Song US-AK.mp3
+      - Dunlin 08 Song US-AK.mp3
+      - Dunlin 09 Song IS-6.mp3
+    mode: party
+
+  31:
+    description: Greater Yellowlegs
+    source:
+      - Greater Yellowlegs 01 Calls US-NY.mp3
+      - Greater Yellowlegs 02 Calls US-NY.mp3
+      - Greater Yellowlegs 03 Calls US-FL.mp3
+      - Greater Yellowlegs 04 Calls CA-AB.mp3
+      - Greater Yellowlegs 05 Calls CA-QC.mp3
+      - Greater Yellowlegs 06 Calls US-NY.mp3
+      - Greater Yellowlegs 07 Song US-FL.mp3
+    mode: party
+
+  32:
+    description: Little Blue Heron
+    source:
+      - Little Blue Heron 01 Calls US-FL.mp3
+      - Little Blue Heron 02 Calls US-FL.mp3
+      - Little Blue Heron 03 Calls US-FL.mp3
+      - Little Blue Heron 04 Display US-MA.mp3
+    mode: party
+
+  33:
+    description: Ruddy Turnstone
+    source:
+      - Ruddy Turnstone 01 Calls US-FL.mp3
+      - Ruddy Turnstone 02 Calls IS-6.mp3
+      - Ruddy Turnstone 03 Calls IS-6.mp3
+      - Ruddy Turnstone 04 Calls US-FL.mp3
+      - Ruddy Turnstone 05 Calls US-AK.mp3
+      - Ruddy Turnstone 06 Calls US-FL.mp3
+      - Ruddy Turnstone 07 Flock calls US-MA.mp3
+      - Ruddy Turnstone 08 Flock calls IS-6.mp3
+      - Ruddy Turnstone 09 Song US-AK.mp3
+    mode: party
+
+  34:
+    description: Sandhill Crane
+    source:
+      - Sandhill Crane 01 Calls US-MA.mp3
+      - Sandhill Crane 02 Calls US-FL.mp3
+      - Sandhill Crane 03 Calls US-NY.mp3
+      - Sandhill Crane 04 Calls CA-BC.mp3
+      - Sandhill Crane 05 Calls US-FL.mp3
+      - Sandhill Crane 06 Calls US-NY.mp3
+      - Sandhill Crane 07 Calls US-FL.mp3
+      - Sandhill Crane 08 Juvenile calls US-NY.mp3
+    mode: party
+
+  35:
+    description: Spotted Sandpiper
+    source:
+      - Spotted Sandpiper 01 Song US-AK.mp3
+      - Spotted Sandpiper 02 Song US-ME.mp3
+      - Spotted Sandpiper 03 Song US-CO.mp3
+      - Spotted Sandpiper 04 Calls US-AK.mp3
+      - Spotted Sandpiper 05 Calls US-FL.mp3
+      - Spotted Sandpiper 06 Calls US-NH.mp3
+      - Spotted Sandpiper 07 Calls US-CA.mp3
+    mode: party
+
+  36:
+    description: Wilson's Snipe
+    source:
+      - Wilson's Snipe 01 Song US-AK.mp3
+      - Wilson's Snipe 02 Song US-NV.mp3
+      - Wilson's Snipe 03 Song US-AK.mp3
+      - Wilson's Snipe 04 Winnow US-NY.mp3
+      - Wilson's Snipe 05 Calls US-FL.mp3
+      - Wilson's Snipe 06 Calls US-NY.mp3
+    mode: party
+
+  37:
+    description: Wood Stork
+    source:
+      - Wood Stork 01 Calls US-FL.mp3
+      - Wood Stork 02 Bill clap US-FL.mp3
+      - Wood Stork 03 Chick calls US-FL.mp3
+    mode: party
+
+  38:
+    description: Yellow-crowned Night-Heron
+    source:
+    mode: party
+
+  39:
+    description: Roseate Spoonbill
+    source:
+      - Roseate Spoonbill 01 Calls US-FL.mp3
+      - Roseate Spoonbill 02 Calls VE-J.mp3
+      - Roseate Spoonbill 03 Chick calls US-FL.mp3
+      - Roseate Spoonbill 04 Chick calls US-FL.mp3
+    mode: party
+
+  40:
+    description: Great Blue Heron
+    source:
+      - Great Blue Heron 01 Calls US-AZ.mp3
+      - Great Blue Heron 02 Calls US-FL.mp3
+      - Great Blue Heron 03 Calls US-FL.mp3
+      - Great Blue Heron 04 Calls US-FL.mp3
+      - Great Blue Heron 05 Display US-TX.mp3
+      - Great Blue Heron 06 Juvenile calls US-NY.mp3
+    mode: party
+
+  41:
+    description: Great Egret
+    source:
+      - Great Egret 01 Calls US-FL.mp3
+      - Great Egret 02 Calls US-FL.mp3
+      - Great Egret 03 Calls US-NY.mp3
+      - Great Egret 04 Chick calls US-ME.mp3
+    mode: party
+
+  42:
+    description: Eastern Screech-Owl
+    source:
+      - Eastern Screech-Owl 01 Song (Northern) US-MD.mp3
+      - Eastern Screech-Owl 02 Song (Northern) US-MD.mp3
+      - Eastern Screech-Owl 03 Song (Northern) US-ME.mp3
+      - Eastern Screech-Owl 04 Song (Northern) US-MD.mp3
+      - Eastern Screech-Owl 05 Calls (Northern) US-IL.mp3
+      - Eastern Screech-Owl 06 Calls (Northern) US-NY.mp3
+      - Eastern Screech-Owl 07 Juvenile calls (Northern) US-NY.mp3
+      - Eastern Screech-Owl 08 Song (McCall's) US-TX.mp3
+      - Eastern Screech-Owl 09 Song (McCall's) MX-NLE.mp3
+      - Eastern Screech-Owl 10 Calls (McCall's) MX-NLE.mp3
+    mode: party
+
+  43:
+    description: American Kestrel
+    source:
+      - American Kestrel 01 Calls US-OR.mp3
+      - American Kestrel 02 Calls US-NY.mp3
+      - American Kestrel 03 Calls SV-MO.mp3
+      - American Kestrel 04 Calls US-WA.mp3
+      - American Kestrel 05 Juvenile calls US-CA.mp3
+    mode: party
+
+  44:
+    description: Great Gray Owl
+    source:
+      - Great Gray Owl 01 Song US-AK.mp3
+      - Great Gray Owl 02 Song US-OR.mp3
+      - Great Gray Owl 03 Calls US-OR.mp3
+      - Great Gray Owl 04 Juvenile calls US-WY.mp3
+      - Great Gray Owl 05 Juvenile calls US-MT.mp3
+    mode: party
+
+  45:
+    description: Great Horned Owl
+    source:
+      - Great Horned Owl 01 Song US-CA.mp3
+      - Great Horned Owl 02 Duet US-CA.mp3
+      - Great Horned Owl 03 Female calls US-CT.mp3
+      - Great Horned Owl 04 Begging calls US-NY.mp3
+    mode: party
+
+  46:
+    description: Osprey
+    source:
+      - Osprey 01 Display US-CA.mp3
+      - Osprey 02 Calls US-CA.mp3
+      - Osprey 03 Calls US-CA.mp3
+      - Osprey 04 Calls US-FL.mp3
+      - Osprey 05 Calls US-FL.mp3
+      - Osprey 06 Juvenile calls US-NY.mp3
+    mode: party
+
+  47:
+    description: Northern Pygmy-Owl
+    source:
+      - Northern Pygmy-Owl 01 Juvenile calls US-WA.mp3
+      - Northern Pygmy-Owl 02 Song (Mountain) US-AZ.mp3
+      - Northern Pygmy-Owl 03 Song (Pacific) US-CA.mp3
+      - Northern Pygmy-Owl 04 Song (Pacific) US-WA.mp3
+      - Northern Pygmy-Owl 05 Song (Rocky Mts.) US-CO.mp3
+      - Northern Pygmy-Owl 06 Calls (Rocky Mts.) US-CO.mp3
+    mode: party
+
+  48:
+    description: Swainson's Hawk
+    source:
+      - Swainson's Hawk 01 Calls CA-SK.mp3
+      - Swainson's Hawk 02 Calls US-MT.mp3
+      - Swainson's Hawk 03 Calls US-CA.mp3
+      - Swainson's Hawk 04 Calls US-CO.mp3
+    mode: party
+
+  49:
+    description: Burrowing Owl
+    source:
+      - Burrowing Owl 01 Song (Western) US-UT.mp3
+      - Burrowing Owl 02 Calls (Western) US-KS.mp3
+      - Burrowing Owl 03 Calls (Western) US-KS.mp3
+      - Burrowing Owl 04 Calls (Western) US-AZ.mp3
+      - Burrowing Owl 05 Juvenile calls (Western) US-ID.mp3
+      - Burrowing Owl 06 Song (Florida) US-FL.mp3
+      - Burrowing Owl 07 Calls (Florida) US-FL.mp3
+    mode: party
+
+  50:
+    description: Red-tailed Hawk
+    source:
+      - Red-tailed Hawk 01 Calls US-CA.mp3
+      - Red-tailed Hawk 02 Calls US-WA.mp3
+      - Red-tailed Hawk 03 Calls US-CA.mp3
+      - Red-tailed Hawk 04 Calls US-AK.mp3
+      - Red-tailed Hawk 05 Display US-WA.mp3
+      - Red-tailed Hawk 06 Calls CA-AB.mp3
+      - Red-tailed Hawk 07 Juvenile calls US-NY.mp3
+      - Red-tailed Hawk 08 Juvenile calls US-UT.mp3
+    mode: party
+
+  51:
+    description: Short-eared Owl
+    source:
+      - Short-eared Owl 01 Calls (Northern) US-ND.mp3
+      - Short-eared Owl 02 Calls (Northern) US-NY.mp3
+      - Short-eared Owl 03 Song (Northern) IS-8.mp3
+      - Short-eared Owl 04 Wing sonation (Northern) US-AK.mp3
+      - Short-eared Owl 05 Calls (Hawaiian) US-HI.mp3
+    mode: party
+
+  52:
+    description: Peregrine Falcon
+    source:
+      - Peregrine Falcon 01 Calls (North American) US-CO.mp3
+      - Peregrine Falcon 02 Calls (North American) CA-AB.mp3
+      - Peregrine Falcon 03 Calls (North American) US-NJ.mp3
+      - Peregrine Falcon 04 Calls (Tundra) US-AK.mp3
+      - Peregrine Falcon 05 Calls (Tundra) US-AK.mp3
+    mode: party
+
+  53:
+    description: Snowy Owl
+    source:
+      - Snowy Owl 01 Song US-AK.mp3
+      - Snowy Owl 02 Calls CA-NU.mp3
+      - Snowy Owl 03 Calls CA-NU.mp3
+    mode: party
+
+  54:
+    description: Bald Eagle
+    source:
+      - Bald Eagle 01 Calls US-FL.mp3
+      - Bald Eagle 02 Calls US-AK.mp3
+      - Bald Eagle 03 Calls US-FL.mp3
+      - Bald Eagle 04 Calls US-AK.mp3
+      - Bald Eagle 05 Juvenile calls US-MD.mp3
+    mode: party
+

@@ -12,7 +12,7 @@ In service of setting up TonUINO cards with bird songs.
     - [x] Set up yaml manually
     - [x] Use yaml to program one card
     - [ ] ...does it work? TBD! 
-- [ ] From card deck, list out all required birds
+- [x] From card deck, list out all required birds
 - [ ] Auto-generate bulk .yaml from bird list
     - [ ] Add audio files for each bird
     - [ ] Run to put audio files onto tonuino
@@ -129,5 +129,59 @@ Okay. SD card is in device. Device is powered on. Now what?!
 
 - [ ] TODO Next: figure out csv bulk upload situation (may take...a bit. does not seem intuitive)
 
-### Goal 3: List the cards from the birds deck
-- Doing that in birds-of-north-america-deck.txt
+### Goal 3: Prepare to make full .yaml
+
+1. List the cards from the birds deck
+- ...added as `birds-of-north-america-deck.txt`
+
+2. Make list of audio files (so that we don't have to constantly parse)
+```
+ls "/Users/skye/Downloads/The Cornell Guide to Bird Sounds--United States and Canada (v2025)" | wc
+    4961   26272  190133
+```
+Okay, 4961 lines == 4961 files. pretty sure that's what we were promised?
+
+```
+ls "/Users/skye/Downloads/The Cornell Guide to Bird Sounds--United States and Canada (v2025)" > audio-full-tracklist.txt
+```
+
+### Goal 4: Make full .yaml!
+
+Okay. This is a case where templating the full thing would be overkill. There are two steps:
+
+1. Automated: loop through deck, find matching audio tracks 
+
+2. Manual: Add header info to .yaml file, remove junk files, manually do tuning
+
+Let's do the automated bit first!
+```bash
+export OUTFILE=tonuino-birds-of-north-america.yaml
+
+function append_birdsong_files() {
+    local I_BIRD="$1"
+    local BIRD="$2"
+
+    echo "  $I_BIRD:\n    description: $BIRD\n    source:" >> "$OUTFILE"
+    cat audio-full-tracklist.txt \
+        | grep "$BIRD" \
+        | sort \
+        | awk '{ print "      - " $0 }' \
+        >> "$OUTFILE"
+    echo "    mode: party\n" >> "$OUTFILE"
+}
+
+export i_card=1
+while read line; do
+    # Skip commented lines
+    if [[ (${line:0:1} != \#) && -n $line ]] ; then
+        append_birdsong_files "$i_card" "$line"
+        let "i_card+=1"
+    else
+        # echo "SKIPPED $line"
+    fi
+done < birds-of-north-america-deck.txt
+```
+
+:) :) :)
+
+It's looking good! Okay. Let's check that in (so we don't accidentally overwrite it!) and then do the manual bit.
