@@ -1,7 +1,7 @@
 sourcebasedir: "/Users/skye/Downloads/The Cornell Guide to Bird Sounds--United States and Canada (v2025)"
 # cardcookie: "1337B347"
 # version: 2
-maxcardsperqrcode: 1
+# maxcardsperqrcode: 4
 # filenametype: "mp3tags"
 
 cards:
@@ -22,7 +22,9 @@ cards:
       - American Crow 12 Calls (Pacific vocal type) US-AK.mp3
       - American Crow 13 Calls (Pacific vocal type) US-AK.mp3
       - American Crow 14 Calls (Pacific vocal type) US-WA.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 14
 
   2:
     description: Downy Woodpecker
@@ -39,7 +41,9 @@ cards:
       - Downy Woodpecker 10 Calls (Pacific) US-CA.mp3
       - Downy Woodpecker 11 Calls (Pacific) US-CA.mp3
       - Downy Woodpecker 12 Drum (Pacific) US-CA.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 12
 
   3:
     description: American Goldfinch
@@ -57,7 +61,9 @@ cards:
       - American Goldfinch 11 Calls US-KS.mp3
       - American Goldfinch 12 Juvenile calls US-NY.mp3
       - American Goldfinch 13 Juvenile calls US-NY.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 13
 
   4:
     description: Black-capped Chickadee
@@ -75,7 +81,9 @@ cards:
       - Black-capped Chickadee 11 Calls US-NY.mp3
       - Black-capped Chickadee 12 Calls US-NY.mp3
       - Black-capped Chickadee 13 Juvenile calls US-NY.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 13
 
   5:
     description: Cedar Waxwing
@@ -86,7 +94,9 @@ cards:
       - Cedar Waxwing 04 Calls US-NY.mp3
       - Cedar Waxwing 05 Flock calls US-NY.mp3
       - Cedar Waxwing 06 Calls US-NY.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 6
 
   6:
     description: Lincoln's Sparrow
@@ -100,7 +110,9 @@ cards:
       - Lincoln's Sparrow 07 Tink calls US-WY.mp3
       - Lincoln's Sparrow 08 Calls US-CO.mp3
       - Lincoln's Sparrow 09 Flight calls US-AZ.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 9
 
   7:
     description: Mountain Bluebird
@@ -112,7 +124,9 @@ cards:
       - Mountain Bluebird 05 Calls US-SD.mp3
       - Mountain Bluebird 06 Calls US-CO.mp3
       - Mountain Bluebird 07 Juvenile calls US-SD.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 7
 
   8:
     description: Northern Mockingbird
@@ -125,7 +139,9 @@ cards:
       - Northern Mockingbird 06 Calls US-NY.mp3
       - Northern Mockingbird 07 Calls US-MD.mp3
       - Northern Mockingbird 08 Juvenile calls US-CT.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 8
 
   9:
     description: Rose-breasted Grosbeak
@@ -140,7 +156,9 @@ cards:
       - Rose-breasted Grosbeak 08 Calls US-NY.mp3
       - Rose-breasted Grosbeak 09 Flight calls US-NY.mp3
       - Rose-breasted Grosbeak 10 Flight calls US-MD.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 10
 
   10:
     description: White-breasted Nuthatch
@@ -163,7 +181,9 @@ cards:
       - White-breasted Nuthatch 16 Song (Pacific) US-CA.mp3
       - White-breasted Nuthatch 17 Song (Pacific) US-CA.mp3
       - White-breasted Nuthatch 18 Calls (Pacific) US-CA.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 18
 
   11:
     description: Yellow-rumped Warbler
@@ -183,7 +203,9 @@ cards:
       - Yellow-rumped Warbler 13 Chip calls (Audubon's) US-WY.mp3
       - Yellow-rumped Warbler 14 Tink calls (Audubon's) US-CA.mp3
       - Yellow-rumped Warbler 15 Flight calls (Audubon's) US-ID.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 15
 
   12:
     description: Eastern Meadowlark
@@ -196,7 +218,9 @@ cards:
       - Eastern Meadowlark 06 Calls US-NY.mp3
       - Eastern Meadowlark 07 Calls US-NY.mp3
       - Eastern Meadowlark 08 Flight calls US-NJ.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 8
 
   13:
     description: Northern Cardinal
@@ -211,7 +235,9 @@ cards:
       - Northern Cardinal 08 Calls US-NY.mp3
       - Northern Cardinal 09 Calls US-NY.mp3
       - Northern Cardinal 10 Juvenile calls US-NY.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 10
 
   14:
     description: Baltimore Oriole
@@ -230,7 +256,9 @@ cards:
       - Baltimore Oriole 12 Calls US-NY.mp3
       - Baltimore Oriole 13 Calls US-WV.mp3
       - Baltimore Oriole 14 Juvenile calls US-NY.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 14
 
   15:
     description: Western Tanager
@@ -241,7 +269,9 @@ cards:
       - Western Tanager 04 Calls US-UT.mp3
       - Western Tanager 05 Calls US-CA.mp3
       - Western Tanager 06 Calls US-OR.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 6
 
   16:
     description: Mallard
@@ -253,7 +283,9 @@ cards:
       - Mallard 05 Calls US-NY.mp3
       - Mallard 06 Calls US-NY.mp3
       - Mallard 07 Display US-NY.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 7
 
   17:
     description: Common Loon
@@ -265,7 +297,9 @@ cards:
       - Common Loon 05 Calls CA-BC.mp3
       - Common Loon 06 Calls US-AK.mp3
       - Common Loon 07 Calls US-WI.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 7
 
   18:
     description: Common Merganser
@@ -273,7 +307,9 @@ cards:
       - Common Merganser 01 Display US-NY.mp3
       - Common Merganser 02 Calls US-NY.mp3
       - Common Merganser 03 Calls US-NY.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 3
 
   19:
     description: Gadwall
@@ -283,7 +319,9 @@ cards:
       - Gadwall 03 Female calls US-ND.mp3
       - Gadwall 04 Female calls PT-08.mp3
       - Gadwall 05 Calls US-NY.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 5
 
   20:
     description: Northern Pintail
@@ -292,7 +330,9 @@ cards:
       - Northern Pintail 02 Calls US-AK.mp3
       - Northern Pintail 03 Calls CA-MB.mp3
       - Northern Pintail 04 Flock calls US-NY.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 4
 
   21:
     description: Redhead
@@ -302,7 +342,9 @@ cards:
       - Redhead 03 Calls US-CA.mp3
       - Redhead 04 Calls US-NY.mp3
       - Redhead 05 Calls CA-MB.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 5
 
   22:
     description: Ring-necked Duck
@@ -313,14 +355,18 @@ cards:
       - Ring-necked Duck 04 Female calls US-NY.mp3
       - Ring-necked Duck 05 Female calls US-AK.mp3
       - Ring-necked Duck 06 Female calls US-AK.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 6
 
   23:
     description: Ruddy Duck
     source:
       - Ruddy Duck 01 Display US-CA.mp3
       - Ruddy Duck 02 Calls US-CO.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 2
 
   24:
     description: Trumpeter Swan
@@ -331,7 +377,9 @@ cards:
       - Trumpeter Swan 04 Calls US-MT.mp3
       - Trumpeter Swan 05 Calls US-MN.mp3
       - Trumpeter Swan 06 Wing sound US-MT.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 6
 
   25:
     description: Western Grebe
@@ -342,7 +390,9 @@ cards:
       - Western Grebe 04 Calls CA-MB.mp3
       - Western Grebe 05 Calls US-CA.mp3
       - Western Grebe 06 Chick calls US-CA.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 6
 
   26:
     description: Green-winged Teal
@@ -355,7 +405,9 @@ cards:
       - Green-winged Teal 06 Calls US-CA.mp3
       - Green-winged Teal 07 Calls US-WA.mp3
       - Green-winged Teal 08 Calls US-NY.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 8
 
   27:
     description: Hooded Merganser
@@ -364,7 +416,9 @@ cards:
       - Hooded Merganser 02 Calls US-SC.mp3
       - Hooded Merganser 03 Calls US-WA.mp3
       - Hooded Merganser 04 Wing sound CA-ON.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 4
 
   28:
     description: Wood Duck
@@ -377,7 +431,9 @@ cards:
       - Wood Duck 06 Calls US-NY.mp3
       - Wood Duck 07 Calls US-CA.mp3
       - Wood Duck 08 Calls US-NY.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 8
 
   29:
     description: American Avocet
@@ -388,7 +444,9 @@ cards:
       - American Avocet 04 Calls US-OR.mp3
       - American Avocet 05 Calls US-OR.mp3
       - American Avocet 06 Flock calls CA-AB.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 6
 
   30:
     description: Dunlin
@@ -402,7 +460,9 @@ cards:
       - Dunlin 07 Song US-AK.mp3
       - Dunlin 08 Song US-AK.mp3
       - Dunlin 09 Song IS-6.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 9
 
   31:
     description: Greater Yellowlegs
@@ -414,7 +474,9 @@ cards:
       - Greater Yellowlegs 05 Calls CA-QC.mp3
       - Greater Yellowlegs 06 Calls US-NY.mp3
       - Greater Yellowlegs 07 Song US-FL.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 7
 
   32:
     description: Little Blue Heron
@@ -423,7 +485,9 @@ cards:
       - Little Blue Heron 02 Calls US-FL.mp3
       - Little Blue Heron 03 Calls US-FL.mp3
       - Little Blue Heron 04 Display US-MA.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 4
 
   33:
     description: Ruddy Turnstone
@@ -437,7 +501,9 @@ cards:
       - Ruddy Turnstone 07 Flock calls US-MA.mp3
       - Ruddy Turnstone 08 Flock calls IS-6.mp3
       - Ruddy Turnstone 09 Song US-AK.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 9
 
   34:
     description: Sandhill Crane
@@ -450,7 +516,9 @@ cards:
       - Sandhill Crane 06 Calls US-NY.mp3
       - Sandhill Crane 07 Calls US-FL.mp3
       - Sandhill Crane 08 Juvenile calls US-NY.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 8
 
   35:
     description: Spotted Sandpiper
@@ -462,7 +530,9 @@ cards:
       - Spotted Sandpiper 05 Calls US-FL.mp3
       - Spotted Sandpiper 06 Calls US-NH.mp3
       - Spotted Sandpiper 07 Calls US-CA.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 7
 
   36:
     description: Wilson's Snipe
@@ -473,7 +543,9 @@ cards:
       - Wilson's Snipe 04 Winnow US-NY.mp3
       - Wilson's Snipe 05 Calls US-FL.mp3
       - Wilson's Snipe 06 Calls US-NY.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 6
 
   37:
     description: Wood Stork
@@ -481,10 +553,12 @@ cards:
       - Wood Stork 01 Calls US-FL.mp3
       - Wood Stork 02 Bill clap US-FL.mp3
       - Wood Stork 03 Chick calls US-FL.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 3
 
   38:
-    description: Yellow-crowned Night-Heron
+    description: Yellow-crowned Night Heron
     source:
       - Yellow-crowned Night Heron 01 Calls US-NC.mp3
       - Yellow-crowned Night Heron 02 Calls US-LA.mp3
@@ -492,7 +566,9 @@ cards:
       - Yellow-crowned Night Heron 04 Calls US-CA.mp3
       - Yellow-crowned Night Heron 05 Display MX-NAY.mp3
       - Yellow-crowned Night Heron 06 Juvenile calls US-CA.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 6
 
   39:
     description: Roseate Spoonbill
@@ -501,7 +577,9 @@ cards:
       - Roseate Spoonbill 02 Calls VE-J.mp3
       - Roseate Spoonbill 03 Chick calls US-FL.mp3
       - Roseate Spoonbill 04 Chick calls US-FL.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 4
 
   40:
     description: Great Blue Heron
@@ -512,7 +590,9 @@ cards:
       - Great Blue Heron 04 Calls US-FL.mp3
       - Great Blue Heron 05 Display US-TX.mp3
       - Great Blue Heron 06 Juvenile calls US-NY.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 6
 
   41:
     description: Great Egret
@@ -521,7 +601,9 @@ cards:
       - Great Egret 02 Calls US-FL.mp3
       - Great Egret 03 Calls US-NY.mp3
       - Great Egret 04 Chick calls US-ME.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 4
 
   42:
     description: Eastern Screech-Owl
@@ -536,7 +618,9 @@ cards:
       - Eastern Screech-Owl 08 Song (McCall's) US-TX.mp3
       - Eastern Screech-Owl 09 Song (McCall's) MX-NLE.mp3
       - Eastern Screech-Owl 10 Calls (McCall's) MX-NLE.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 10
 
   43:
     description: American Kestrel
@@ -546,7 +630,9 @@ cards:
       - American Kestrel 03 Calls SV-MO.mp3
       - American Kestrel 04 Calls US-WA.mp3
       - American Kestrel 05 Juvenile calls US-CA.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 5
 
   44:
     description: Great Gray Owl
@@ -556,7 +642,9 @@ cards:
       - Great Gray Owl 03 Calls US-OR.mp3
       - Great Gray Owl 04 Juvenile calls US-WY.mp3
       - Great Gray Owl 05 Juvenile calls US-MT.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 5
 
   45:
     description: Great Horned Owl
@@ -565,7 +653,9 @@ cards:
       - Great Horned Owl 02 Duet US-CA.mp3
       - Great Horned Owl 03 Female calls US-CT.mp3
       - Great Horned Owl 04 Begging calls US-NY.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 4
 
   46:
     description: Osprey
@@ -576,7 +666,9 @@ cards:
       - Osprey 04 Calls US-FL.mp3
       - Osprey 05 Calls US-FL.mp3
       - Osprey 06 Juvenile calls US-NY.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 6
 
   47:
     description: Northern Pygmy-Owl
@@ -587,7 +679,9 @@ cards:
       - Northern Pygmy-Owl 04 Song (Pacific) US-WA.mp3
       - Northern Pygmy-Owl 05 Song (Rocky Mts.) US-CO.mp3
       - Northern Pygmy-Owl 06 Calls (Rocky Mts.) US-CO.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 6
 
   48:
     description: Swainson's Hawk
@@ -596,7 +690,9 @@ cards:
       - Swainson's Hawk 02 Calls US-MT.mp3
       - Swainson's Hawk 03 Calls US-CA.mp3
       - Swainson's Hawk 04 Calls US-CO.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 4
 
   49:
     description: Burrowing Owl
@@ -608,7 +704,9 @@ cards:
       - Burrowing Owl 05 Juvenile calls (Western) US-ID.mp3
       - Burrowing Owl 06 Song (Florida) US-FL.mp3
       - Burrowing Owl 07 Calls (Florida) US-FL.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 7
 
   50:
     description: Red-tailed Hawk
@@ -621,7 +719,9 @@ cards:
       - Red-tailed Hawk 06 Calls CA-AB.mp3
       - Red-tailed Hawk 07 Juvenile calls US-NY.mp3
       - Red-tailed Hawk 08 Juvenile calls US-UT.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 8
 
   51:
     description: Short-eared Owl
@@ -631,7 +731,9 @@ cards:
       - Short-eared Owl 03 Song (Northern) IS-8.mp3
       - Short-eared Owl 04 Wing sonation (Northern) US-AK.mp3
       - Short-eared Owl 05 Calls (Hawaiian) US-HI.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 5
 
   52:
     description: Peregrine Falcon
@@ -641,7 +743,9 @@ cards:
       - Peregrine Falcon 03 Calls (North American) US-NJ.mp3
       - Peregrine Falcon 04 Calls (Tundra) US-AK.mp3
       - Peregrine Falcon 05 Calls (Tundra) US-AK.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 5
 
   53:
     description: Snowy Owl
@@ -649,7 +753,9 @@ cards:
       - Snowy Owl 01 Song US-AK.mp3
       - Snowy Owl 02 Calls CA-NU.mp3
       - Snowy Owl 03 Calls CA-NU.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 3
 
   54:
     description: Bald Eagle
@@ -659,4 +765,7 @@ cards:
       - Bald Eagle 03 Calls US-FL.mp3
       - Bald Eagle 04 Calls US-AK.mp3
       - Bald Eagle 05 Juvenile calls US-MD.mp3
-    mode: party
+    mode: party-from-to
+    from_song: 1
+    to_song: 5
+

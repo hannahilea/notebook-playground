@@ -11,16 +11,15 @@ In service of setting up TonUINO cards with bird songs.
     - [x] Follow install
     - [x] Set up yaml manually
     - [x] Use yaml to program one card
-    - [ ] ...does it work? TBD! 
+    - [x] ...does it work? TBD! 
 - [x] From card deck, list out all required birds
 - [x] Auto-generate bulk .yaml from bird list
     - [x] Add audio files for each bird
-    - [ ] Run to put audio files onto tonuino
-    - [ ] Test with one manual card that bulk-add worked
+    - [x] Run to put audio files onto tonuino
+    - [x] Test with one manual card that bulk-add worked
 - [ ] Set up cards!
+    - [ ] Put stickers on card
     - [ ] Program stickers
-    - [ ] Put sticker on card
-
 
 ## Dev log
 
@@ -137,34 +136,11 @@ Okay. This is a case where templating the full thing would be overkill. There ar
 
 2. Manual: Add header info to .yaml file, remove junk files, manually do tuning
 
-Let's do the automated bit first!
-```bash
-export OUTFILE=tonuino-birds-of-north-america.yaml
-
-function append_birdsong_files() {
-    local I_BIRD="$1"
-    local BIRD="$2"
-
-    echo "  $I_BIRD:\n    description: $BIRD\n    source:" >> "$OUTFILE"
-    cat audio-full-tracklist.txt \
-        | grep "$BIRD" \
-        | sort \
-        | awk '{ print "      - " $0 }' \
-        >> "$OUTFILE"
-    echo "    mode: party\n" >> "$OUTFILE"
-}
-
-export i_card=1
-while read line; do
-    # Skip commented lines
-    if [[ (${line:0:1} != \#) && -n $line ]] ; then
-        append_birdsong_files "$i_card" "$line"
-        let "i_card+=1"
-    else
-        # echo "SKIPPED $line"
-    fi
-done < birds-of-north-america-deck.txt
+Let's do the automated bit first! Written in script `make_bird_yaml.sh`, so can be run as 
 ```
+bash make_bird_yaml.sh
+```
+WILL overwrite existing `tonuino-birds-of-north-america.yaml` file.
 
 :) :) :)
 
@@ -229,9 +205,34 @@ First though: It seems very much like "party" mode has some bugs (in general, or
 
 Let's bypass this by using a different mode in our yaml. Luckily as long as the order of the yaml stays the same, we can regenerate our QR codes as much as we want!
 
+- Okay fixed up the random mode. We good! Regenerate our QR codes.
+
 ```
 uv run tonuino-cards-manager --config tonuino-birds-of-north-america.yaml --destination 'temp' &> tonuino-birds-of-north-america.log
 ```
+
+- Huh. There is a mismatch between what the card claims to be reading in when device-configured
+        ` `
+    and what it reads in when bulk-configured:
+        `13 37 B3 47 02 01 09 01 0e` (spaces added)
+    which SHOULD mean "folder 1 party-to-from mode track 1 to track 14`
+
+    So the question is now "where is that 7th byte coming from in the QR code generator?!"
+    Because either there's a bug there OR (more likely) my yaml is weird in some way....
+
+- When QR generation is run with verbose flag, it returns `13 37 B3 47 02 01 09 01 0e`
+    so at least we know that the code is being read correctly. What does it mean??
+
+- Let's read the code! 
+    - https://github.com/mxmehl/tonuino-cards-manager/blob/b8d607327799524be14f728509bd70f6b9ca87a8/tonuino_cards_manager/main.py#L81 
+
+    - AH "13 37 B3 47" is the cookie! Set in yaml, same as set on tonuino, same everywhere. okay.
+    - Remaining 5 bytes: 3 differs. Looks like third is "mode". huh. 
+
+...BAIL. this is fruitless.
+
+- Found AF's old android phone; couldn't install https://marc136.github.io/tonuino-nfc-tools/ via app store ("invalid country") but succeeded via F-droid. 
+    - Using this app was seemless. AMAZING. 
 
 ### Goal 5: Do the thing!
 
