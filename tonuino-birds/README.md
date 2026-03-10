@@ -13,8 +13,8 @@ In service of setting up TonUINO cards with bird songs.
     - [x] Use yaml to program one card
     - [ ] ...does it work? TBD! 
 - [x] From card deck, list out all required birds
-- [ ] Auto-generate bulk .yaml from bird list
-    - [ ] Add audio files for each bird
+- [x] Auto-generate bulk .yaml from bird list
+    - [x] Add audio files for each bird
     - [ ] Run to put audio files onto tonuino
     - [ ] Test with one manual card that bulk-add worked
 - [ ] Set up cards!
@@ -196,19 +196,51 @@ Okay. SD card is in device. Device is powered on. Now what?!
 - Trying different tools app---claims to support bulk CSV (with paid) --- 3day trial, let's see how it goes
     - Played around, no success yet---also, VERY manual.
 
-- [ ] TODO Next: figure out csv bulk upload situation (may take...a bit. does not seem intuitive)
+- Next: figure out csv bulk upload situation (may take...a bit. does not seem intuitive)
 
+- Can we get even a single card programmed from my phone? 
+- We got one programmed by the phone?
 
-TODO-HERE
+- Programmed one with the tonuino. debug info says:
+```
+NTAG215
+21:49:42.178 -> Writing: 13 37 b3 47 02 01 09 01 05
+```
 
+- Can we read that from our phone app? What does it look like there?
+    - Scanned with NFC tools
+    - Type: Tex record: T (0x54)
+    - Payload: 13 bytes
+        0x02 0x65 0x6E 0x32 0x30 0x31 0x30 0x33 0x30 0x30 0x13 0x37 0xB3
+
+- Okay. How does that line up with what we claimed to be writing??
+
+- Thank you, https://www.scadacore.com/tools/programming-calculators/online-hex-converter/ 
+
+...it is hairy to figure out how to configure a text-as-bytes record in this app. surely there's a way, but I cannot figure it out.
+    
+- okay instead, tried the QR import again. This time...it worked!!
+
+- Okay. I actively dislike NFC.cool and it feels bad SO uninstalling and cancelling the free trial.
+- We're just going to manually import-single-QR-code-and-save-it with NFC Tools. Fine! At least we know that works.
+
+First though: It seems very much like "party" mode has some bugs (in general, or maybe just on my somewhat older mp3 module?)
+    - https://discourse.voss.earth/t/tonuino-3-1-party-modus-error/12689
+
+Let's bypass this by using a different mode in our yaml. Luckily as long as the order of the yaml stays the same, we can regenerate our QR codes as much as we want!
+
+```
+uv run tonuino-cards-manager --config tonuino-birds-of-north-america.yaml --destination 'temp' &> tonuino-birds-of-north-america.log
+```
 
 ### Goal 5: Do the thing!
 
 No, but seriously! The final steps are:
-- [ ] Run the real command to copy the audio over to the SD card: 
+- [x] Run the real command to copy the audio over to the SD card: 
 ```
-    uv run tonuino-cards-manager --config tonuino-birds-of-north-america.yaml --destination '/Volumes/TONUINO' > tonuino-birds-of-north-america.log
+    uv run tonuino-cards-manager --config tonuino-birds-of-north-america.yaml --destination '/Volumes/TONUINO' &> tonuino-birds-of-north-america.log
 ```
+
 
 - [ ] Program each sticker...
     - [ ] ...and put it on the bird card

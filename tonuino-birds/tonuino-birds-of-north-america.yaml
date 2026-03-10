@@ -1,7 +1,7 @@
 sourcebasedir: "/Users/skye/Downloads/The Cornell Guide to Bird Sounds--United States and Canada (v2025)"
 # cardcookie: "1337B347"
 # version: 2
-# maxcardsperqrcode: 4
+maxcardsperqrcode: 1
 # filenametype: "mp3tags"
 
 cards:
