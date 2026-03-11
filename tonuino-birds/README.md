@@ -1,6 +1,6 @@
 # `tonuino-birds`
 
-In service of setting up TonUINO cards with bird songs.   
+In service of setting up TonUINO cards with bird songs.
 
 ## Punch list
 
@@ -11,15 +11,15 @@ In service of setting up TonUINO cards with bird songs.
     - [x] Follow install
     - [x] Set up yaml manually
     - [x] Use yaml to program one card
-    - [x] ...does it work? TBD! 
+    - [x] ...does it work? TBD!
 - [x] From card deck, list out all required birds
 - [x] Auto-generate bulk .yaml from bird list
     - [x] Add audio files for each bird
     - [x] Run to put audio files onto tonuino
     - [x] Test with one manual card that bulk-add worked
-- [ ] Set up cards!
-    - [ ] Put stickers on card
-    - [ ] Program stickers
+- [x] Set up cards!
+    - [x] Put stickers on card
+    - [x] Program stickers
 
 ## Dev log
 
@@ -35,12 +35,12 @@ Want to use: https://github.com/mxmehl/tonuino-cards-manager
     uv add tonuino-cards-manager
     ```
 
-    Then to run it, still from this working directory, do 
+    Then to run it, still from this working directory, do
     ```
     uv run tonuino-cards-manager --help
     ```
-    ! 
-    Okay, it works! Great. 
+    !
+    Okay, it works! Great.
 
 2. Try a test config, save it locally
 
@@ -50,7 +50,7 @@ Want to use: https://github.com/mxmehl/tonuino-cards-manager
     uv run tonuino-cards-manager --config test1.yaml --destination output_test_dir
     ```
 
-    What did that do? Interesting: printed a QR code to stdout! 
+    What did that do? Interesting: printed a QR code to stdout!
     ```
     tonuino-birds$ tree output_test_dir
     output_test_dir
@@ -62,7 +62,7 @@ Want to use: https://github.com/mxmehl/tonuino-cards-manager
 
     -  Try it a second time after updating the card number in the test1.yaml to "3". ...ooh, gave me a "non-consecutive" warning. can i force it? nope, doesn't seem like it.
 
-    - Okay, and if I rerun the original file a second time, it overwrites without complaint, even without the -f flag. Iiiiiinteresting. 
+    - Okay, and if I rerun the original file a second time, it overwrites without complaint, even without the -f flag. Iiiiiinteresting.
 
     - Now add some cruft in the folder. Do those get erased?
         ```
@@ -128,15 +128,15 @@ Okay, 4961 lines == 4961 files. pretty sure that's what we were promised?
 ls "/Users/skye/Downloads/The Cornell Guide to Bird Sounds--United States and Canada (v2025)" > audio-full-tracklist.txt
 ```
 
-### Goal 3: Make full playlist of birds! 
+### Goal 3: Make full playlist of birds!
 
 Okay. This is a case where templating the full thing would be overkill. There are two steps:
 
-1. Automated: loop through deck, find matching audio tracks 
+1. Automated: loop through deck, find matching audio tracks
 
 2. Manual: Add header info to .yaml file, remove junk files, manually do tuning
 
-Let's do the automated bit first! Written in script `make_bird_yaml.sh`, so can be run as 
+Let's do the automated bit first! Written in script `make_bird_yaml.sh`, so can be run as
 ```
 bash make_bird_yaml.sh
 ```
@@ -166,15 +166,15 @@ Okay. SD card is in device. Device is powered on. Now what?!
     - ...nope. Android only, and I don't have access to an Android device. (Maybe AF has an old one I can use?)
 
 - Trying NFC Tools on iphone
-    - Okay, this seems v. powerful. only question is how to get the info from the QR code to this app! lol. 
-    - Do NOT bother upgrading to PRO. 
+    - Okay, this seems v. powerful. only question is how to get the info from the QR code to this app! lol.
+    - Do NOT bother upgrading to PRO.
 
 - Trying different tools app---claims to support bulk CSV (with paid) --- 3day trial, let's see how it goes
     - Played around, no success yet---also, VERY manual.
 
 - Next: figure out csv bulk upload situation (may take...a bit. does not seem intuitive)
 
-- Can we get even a single card programmed from my phone? 
+- Can we get even a single card programmed from my phone?
 - We got one programmed by the phone?
 
 - Programmed one with the tonuino. debug info says:
@@ -191,10 +191,10 @@ NTAG215
 
 - Okay. How does that line up with what we claimed to be writing??
 
-- Thank you, https://www.scadacore.com/tools/programming-calculators/online-hex-converter/ 
+- Thank you, https://www.scadacore.com/tools/programming-calculators/online-hex-converter/
 
 ...it is hairy to figure out how to configure a text-as-bytes record in this app. surely there's a way, but I cannot figure it out.
-    
+
 - okay instead, tried the QR import again. This time...it worked!!
 
 - Okay. I actively dislike NFC.cool and it feels bad SO uninstalling and cancelling the free trial.
@@ -223,27 +223,32 @@ uv run tonuino-cards-manager --config tonuino-birds-of-north-america.yaml --dest
 - When QR generation is run with verbose flag, it returns `13 37 B3 47 02 01 09 01 0e`
     so at least we know that the code is being read correctly. What does it mean??
 
-- Let's read the code! 
-    - https://github.com/mxmehl/tonuino-cards-manager/blob/b8d607327799524be14f728509bd70f6b9ca87a8/tonuino_cards_manager/main.py#L81 
+- Let's read the code!
+    - https://github.com/mxmehl/tonuino-cards-manager/blob/b8d607327799524be14f728509bd70f6b9ca87a8/tonuino_cards_manager/main.py#L81
 
     - AH "13 37 B3 47" is the cookie! Set in yaml, same as set on tonuino, same everywhere. okay.
-    - Remaining 5 bytes: 3 differs. Looks like third is "mode". huh. 
+    - Remaining 5 bytes: 3 differs. Looks like third is "mode". huh.
 
 ...BAIL. this is fruitless.
 
-- Found AF's old android phone; couldn't install https://marc136.github.io/tonuino-nfc-tools/ via app store ("invalid country") but succeeded via F-droid. 
-    - Using this app was seemless. AMAZING. 
+- Found AF's old android phone; couldn't install https://marc136.github.io/tonuino-nfc-tools/ via app store ("invalid country") but succeeded via F-droid.
+    - Using this app was seemless. AMAZING.
 
 ### Goal 5: Do the thing!
 
 No, but seriously! The final steps are:
-- [x] Run the real command to copy the audio over to the SD card: 
+- [x] Run the real command to copy the audio over to the SD card:
 ```
     uv run tonuino-cards-manager --config tonuino-birds-of-north-america.yaml --destination '/Volumes/TONUINO' &> tonuino-birds-of-north-america.log
 ```
 
-
-- [ ] Program each sticker...
-    - [ ] ...and put it on the bird card
+- [x] Program each sticker...
+    - [x] ...and put it on the bird card
 
 ...and that's it, on this side of the project. Still need to figure out a physical housing, but that's neither here nor there.
+
+:)
+
+Huzzah!
+
+(But seriously, this worked out way better than I expected it to.)
