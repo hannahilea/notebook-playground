@@ -1,0 +1,22 @@
+sourcebasedir: "/Users/skye/Downloads/The Cornell Guide to Bird Sounds--United States and Canada (v2025)"
+# cardcookie: "1337B347"
+# version: 2
+# maxcardsperqrcode: 4
+# filenametype: "mp3tags"
+
+cards:
+  # Multiple single songs in party mode
+  1:
+    description: A couple birds
+    source:
+      - American Crow 09 Calls US-FL.mp3
+      - Blue-headed Vireo 10 Calls US-NY.mp3
+    mode: party
+
+  # Multiple single songs in party mode
+  2:
+    description: Chaos
+    source:
+      - /Users/skye/Music/MUSIC TO ADD/Yodel It!.mp3
+      - /Users/skye/Music/MUSIC TO ADD/Don't Think Twice It's Alright.mp3
+    mode: album
