@@ -13,7 +13,7 @@ For specifics, see the per-directory `README.md`s. Which might exist! And might 
 - 2026-03-08: [tonuino-birds](./tonuino-birds)
 
 
-## Make new dir
+## Setting up new subdirectory?
 
 ```
 export NAME=new-name
@@ -25,4 +25,13 @@ touch ".gitignore"
 
 # Optional, if python will be involved
 uv init --bare
+uv add <FOO>
+
+# ...to start notebook using the uv environment
+# (you must be in your notebook subdirectory or this will NOT run with the
+# env you think it will!)
+uv run --with jupyter jupyter lab
+
+# Optional, to make a notebook into markdown for copying into blog
+quarto render <NOTEBOOK_NAME>.ipynb --to markdown
 ```
