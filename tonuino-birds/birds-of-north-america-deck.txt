@@ -1,0 +1,64 @@
+## All: A -> 2 -> up
+# Jokers
+American Crow
+Downy Woodpecker
+
+# Hearts
+American Goldfinch
+Black-capped Chickadee
+Cedar Waxwing
+Lincoln's Sparrow
+Mountain Bluebird
+Northern Mockingbird
+Rose-breasted Grosbeak
+White-breasted Nuthatch
+Yellow-rumped Warbler
+Eastern Meadowlark
+Northern Cardinal
+Baltimore Oriole
+Western Tanager
+
+# Clubs
+Mallard
+Common Loon
+Common Merganser
+Gadwall
+Northern Pintail
+Redhead
+Ring-necked Duck
+Ruddy Duck
+Trumpeter Swan
+Western Grebe
+Green-winged Teal
+Hooded Merganser
+Wood Duck
+
+# Diamonds
+American Avocet
+Dunlin
+Greater Yellowlegs
+Little Blue Heron
+Ruddy Turnstone
+Sandhill Crane
+Spotted Sandpiper
+Wilson's Snipe
+Wood Stork
+Yellow-crowned Night Heron
+Roseate Spoonbill
+Great Blue Heron
+Great Egret
+
+# Clubs
+Eastern Screech-Owl
+American Kestrel
+Great Gray Owl
+Great Horned Owl
+Osprey
+Northern Pygmy-Owl
+Swainson's Hawk
+Burrowing Owl
+Red-tailed Hawk
+Short-eared Owl
+Peregrine Falcon
+Snowy Owl
+Bald Eagle
