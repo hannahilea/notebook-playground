@@ -33,5 +33,5 @@ uv add <FOO>
 uv run --with jupyter jupyter lab
 
 # Optional, to make a notebook into markdown for copying into blog
-quarto render <NOTEBOOK_NAME>.ipynb --to markdown
+quarto render <NOTEBOOK_NAME>.ipynb --to markdown --output-dir x_temp_blog_staging
 ```
