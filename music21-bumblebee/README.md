@@ -12,12 +12,12 @@ Start notebook:
 uv run --with jupyter jupyter lab
 ```
 
-Prep it for blog: 
+Prep it for blog:
 
 ```
 quarto render bumblebee.ipynb --to markdown --output-dir x_temp_blog_staging
 
-../tidy-md.sh ../x_temp_blog_staging/bumblebee.md 
+../tidy-md.sh ../x_temp_blog_staging/bumblebee.md
 ```
 
 
