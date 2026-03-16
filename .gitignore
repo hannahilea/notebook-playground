@@ -18,5 +18,4 @@ wheels/
 *.pdf
 *.png
 
-# TEMP
-music21-bumblebee/
+x_temp_blog_staging/

@@ -1,0 +1,7 @@
+*.md
+!README.md
+*.png
+assets/
+
+/.quarto/
+**/*.quarto_ipynb
