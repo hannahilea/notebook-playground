@@ -2,6 +2,8 @@
 
 In service of setting up TonUINO cards with bird songs.
 
+Project write-up here:  [Birduino: A card-triggered audio player for [learning] the birds](https://hannahilea.com/blog/birduino)
+
 ## Punch list
 
 - [x] Make a list
@@ -232,7 +234,7 @@ uv run tonuino-cards-manager --config tonuino-birds-of-north-america.yaml --dest
 ...BAIL. this is fruitless.
 
 - Found AF's old android phone; couldn't install https://marc136.github.io/tonuino-nfc-tools/ via app store ("invalid country") but succeeded via F-droid.
-    - Using this app was seemless. AMAZING.
+    - Using this app was seamless. AMAZING.
 
 ### Goal 5: Do the thing!
 
