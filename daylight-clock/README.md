@@ -4,7 +4,7 @@
 
 Project write-up here: [Here comes the sun[light]: An ambient Daylight Clock with time and space controls](https://hannahilea.com/blog/daylight-clock)
 
-Inspired by CCEckman's [aclock](https://cceckman.com/writing/aclock/).
+Inspired by CCEckman's [aclock](https://cceckman.com/writing/aclock/); the daylight calculations were ported from cceckman's [Rust implementation](https://github.com/cceckman/aclock/blob/5547d8490151eafa77f33dc697cbb58ea0035c70/server/src/riseset.rs#L60) of the [NOAA](https://gml.noaa.gov/grad/solcalc/calcdetails.html) equations.
 
 Code for controlling a strand of neopixels in a circle, that correspond to a 24-hour clock. Based on an input latitude and longitude, calculates the span of LEDs to between sunrise and sunset for the given day.
 
