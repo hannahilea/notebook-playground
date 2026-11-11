@@ -12,7 +12,7 @@ For specifics, see the per-directory `README.md`s. Which might exist! And might 
 - 2026-03-07: [music21-bumblebee](./music21-bumblebee)
 - 2026-03-08: [tonuino-birds](./tonuino-birds)
 - 2026-11-05: [daylight-clock](./daylight-clock)
-- 2026-11-11: [magtag-mbta](./magtag-mbta)
+- 2026-11-11: [magtag-mbta-display](./magtag-mbta-display)
 
 
 ## Setting up new subdirectory?
