@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Green Line",
+    "url": "https://api-v3.mbta.com/predictions/?filter[route]=Green-D&filter[stop]=place-unsqu&sort=direction_id,departure_time"
+  },
+  {
+    "label": "Kendall/MIT [85]",
+    "url": "https://api-v3.mbta.com/predictions/?filter[route]=85&filter[stop]=2612&sort=direction_id,departure_time"
+  },
+  {
+    "label": "Central [91]",
+    "url": "https://api-v3.mbta.com/predictions/?filter[route]=91&filter[stop]=2612&sort=direction_id,departure_time"
+  },
+  {
+    "label": "Harvard [109]",
+    "url": "https://api-v3.mbta.com/predictions/?filter[route]=109&filter[stop]=2613&sort=direction_id,departure_time"
+  },
+  {
+    "label": "Porter [87]",
+    "url": "https://api-v3.mbta.com/predictions/?filter[route]=87&filter[stop]=26131&sort=direction_id,departure_time"
+  }
+]
